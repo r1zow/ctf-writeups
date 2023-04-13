@@ -4,7 +4,7 @@
 
 Load the downloaded executable file into the IDA. The first thing we do is analyze the functions that the IDA detected. Find the two functions main_main and main_verifyKey.
 
-![[1.png]]
+![][1.png]
 
 Let's see what's in the main function of the program. We see that the loop reads user input and passes it to the main_verifyKey function. If the function returns true, then the flag from env is read and output. Let's see what happens in the main_verifyKey function.
 
