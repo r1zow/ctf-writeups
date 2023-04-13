@@ -4,6 +4,6 @@
 
 | Category | Name | Difficulty |
 | --- | --- | --- |
-| REV | [licenseer](/BucketCTF 2023/REV - licenseer/REV - licenseer (Medium).md) | Medium |
+| REV | [licenseer](BucketCTF%202023/REV%20-%20licenseer/REV%20-%20licenseer%20(Medium).md) | Medium |
 | PWN | Never Called | Easy |
 | PWN | Shell | Medium & Hard |
