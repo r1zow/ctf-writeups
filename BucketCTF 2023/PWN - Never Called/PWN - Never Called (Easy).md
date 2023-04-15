@@ -3,15 +3,15 @@
 
 Open the source file in IDA. Let's see what functions are there. We find the functions main, getMessage and printFlag.
 
-![](BucketCTF%202023/PWN%20-%20Never%20Called/1.png)
+![](1.png)
 
 Let's see what the main function does. The main function calls another function, getMessage. Now let's have a look at what's there.
 
-![](BucketCTF%202023/PWN%20-%20Never%20Called/2.png)
+![](2.png)
 
 The getMessage function reads the string entered by the user. And that's it. To call the printFlag function we need to overwrite the return address from the getMessage function.
 
-![](BucketCTF%202023/PWN%20-%20Never%20Called/3.png)
+![](3.png)
 ![](4.png)
 
 Now we will need a debugger. Because ASLR is disabled on the server, we need to disable it on the workstation before studying it as well (this can be found on Google). We will use gdb with pwndbg plugin as debuggers. Let's start gdb.
@@ -59,4 +59,5 @@ And we get the flag!
 ![](8.png)
 
 > Full [exploit](nev_call.py)
+> 
 > Flag: **bucket{5t4ck_5m45h3r_974c91a5}**
