@@ -6,7 +6,7 @@
 > Maybe changing the code isnt the right direction.
 > Note: The binary from shell has not changed
 
-The functions here are exactly the same as in the task [PWN - Never Called](BucketCTF%202023/PWN%20-%20Never%20Called/PWN%20-%20Never%20Called%20(Easy).md), but only the printFlag function is different, it now takes the *command* parameter and calls *system*.
+The functions here are exactly the same as in the task [PWN - Never Called](/BucketCTF%202023/PWN%20-%20Never%20Called/PWN%20-%20Never%20Called%20(Easy).md), but only the printFlag function is different, it now takes the *command* parameter and calls *system*.
 
 ![](1.png)
 
