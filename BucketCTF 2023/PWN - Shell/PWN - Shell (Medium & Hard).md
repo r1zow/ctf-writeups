@@ -72,6 +72,8 @@ python3 shell.py DEBUG
 
 I never understood the difference between the tasks, I was just lucky that the exploit fit both tasks! Judging by the description of the Hard task, it was possible to solve the Medium task by changing the code.
 
-> [Full exploit](shell.py)
+> [**Full exploit**](shell.py)
+> 
 > Flag Medium: **bucket{5h331_4cc355_d8ebd45cc}**
+> 
 > Flag Hard: **bucket{41w4y5_check_h1dd3n_f2f31ec5}**
