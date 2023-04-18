@@ -3,16 +3,16 @@
 
 Open the source file in IDA. Let's see what functions are there. We find the functions main, getMessage and printFlag.
 
-![](1.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/1.png)
 
 Let's see what the main function does. The main function calls another function, getMessage. Now let's have a look at what's there.
 
-![](2.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/2.png)
 
 The getMessage function reads the string entered by the user. And that's it. To call the printFlag function we need to overwrite the return address from the getMessage function.
 
-![](3.png)
-![](4.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/3.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/4.png)
 
 Now we will need a debugger. Because ASLR is disabled on the server, we need to disable it on the workstation before studying it as well (this can be found on Google). We will use gdb with pwndbg plugin as debuggers. Let's start gdb.
 
@@ -22,15 +22,15 @@ gdb ./never_called.out
 
 Let's run the program and try to enter 100 characters. The pwndbg plugin indicates that the wrong return address is **0x61716161**.
 
-![](5.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/5.png)
 
 The EIP register tells the computer the address of the next command. By successfully overwriting it we can count that **offset is 62**.
 
-![](6.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/6.png)
 
 Now we need to get the address of the beginning of the printFlag function. To get the start address of the printFlag function, we have to disassemble it. The address of the printFlag function is **0x565562ab**. 
 
-![](7.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/7.png)
 
 For writing exploitation in PWN tasks we usually use the python3 library - pwntools. Let's create an exploitation template with the following command:
 
@@ -56,8 +56,8 @@ python3 nev_call.py DEBUG
 
 And we get the flag!
 
-![](8.png)
+![](BucketCTF%202023/PWN%20-%20Never%20Called/8.png)
 
-> Full [exploit](nev_call.py)
+> [**Full exploit**](nev_call.py)
 > 
 > Flag: **bucket{5t4ck_5m45h3r_974c91a5}**
