@@ -1,9 +1,13 @@
 > **Shell Medium**
+> 
 > Run a command and get the flag.
+> 
 > ASLR is off on the server.
 ---
 > **Shell Hard**
+> 
 > Maybe changing the code isnt the right direction.
+> 
 > Note: The binary from shell has not changed
 ---
 
