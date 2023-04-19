@@ -1,6 +1,7 @@
 > Help! I tried writing my new authentication server in go, and I forgot the password!
 > 
 > nc dev.fyrehost.net 54321
+---
 
 Load the downloaded executable file into the IDA. The first thing we do is analyze the functions that the IDA detected. Find the two functions main_main and main_verifyKey.
 
@@ -17,4 +18,5 @@ In the main_verifyKey function we see that the MD5 hash of the data entered by t
 Let's try to connect via nc and enter this hash. The program gave out a password - **passWord1234!!**.
 Next, we connect to the container of the task, pass the received password and get the flag!
 
+---
  > Flag: **bucket{HASH1NG_IS_S0_FUN_2f47d31e7c28d}**

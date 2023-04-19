@@ -1,10 +1,11 @@
 > **Shell Medium**
 > Run a command and get the flag.
 > ASLR is off on the server.
-
+---
 > **Shell Hard**
 > Maybe changing the code isnt the right direction.
 > Note: The binary from shell has not changed
+---
 
 The functions here are exactly the same as in the task [PWN - Never Called](../PWN%20-%20Never%20Called/PWN%20-%20Never%20Called%20(Easy).md), but only the printFlag function is different, it now takes the *command* parameter and calls *system*.
 
@@ -72,6 +73,7 @@ python3 shell.py DEBUG
 
 I never understood the difference between the tasks, I was just lucky that the exploit fit both tasks! Judging by the description of the Hard task, it was possible to solve the Medium task by changing the code.
 
+---
 > [**Full exploit**](shell.py)
 > 
 > Flag Medium: **bucket{5h331_4cc355_d8ebd45cc}**
