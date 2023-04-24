@@ -3,11 +3,11 @@
 
 Open the source code in IDA Pro. We see that we can manage an "array" of 10 numbers and initialize a random number. There is also a function printFlag, which is never called.
 
-![](Screen-1.png)
+![](HackPack%20CTF%202023/PWN%20-%20Number%20Store/Screen-1.png)
 
 Program Menu:
 
-![](Screen-2.png)
+![](HackPack%20CTF%202023/PWN%20-%20Number%20Store/Screen-2.png)
 
 We can write a number and delete it, it looks like a UAF vulnerability. Let's see how it looks in memory. I will debug the program in EDB. Let's write the data:
 
