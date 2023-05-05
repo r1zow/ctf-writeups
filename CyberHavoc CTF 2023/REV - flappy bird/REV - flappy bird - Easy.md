@@ -3,7 +3,7 @@
 
 In the executable file, we see lines indicating that the source code was written in Python.
 
-![](Screen-1.png)
+![](../../ångstromCTF%202023/REV%20-%20Bananas/Screen-1.png)
 
 Let's try to get PYZ files. PYZ is a Python file placed in a Zip archive. [Pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) displays a warning that some files cannot be retrieved because Python version 3.10 is required.
 
