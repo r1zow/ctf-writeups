@@ -27,12 +27,12 @@ Forensics | Decrypting the Memories
 
 Category | Name
 --- | ---
-REV | [Bananas](%C3%A5ngstromCTF%202023/REV%20-%20Bananas/Bananas) - [PDF](%A5ngstromCTF%202023/REV%20-%20Bananas/Bananas.pdf)
+REV | [Bananas](%C3%A5ngstromCTF%202023/REV%20-%20Bananas/Bananas.md) - [PDF](%A5ngstromCTF%202023/REV%20-%20Bananas/Bananas.pdf)
 
 5. TAMUctf 2023
 
 Category | Name
 --- | ---
-PWN | [unlucky](TAMUctf%202023/PWN%20-%20unlucky/PWN%20-%20unlucky) - [PDF](TAMUctf%202023/PWN%20-%20unlucky/PWN%20-%20unlucky.pdf)
+PWN | [unlucky](TAMUctf%202023/PWN%20-%20unlucky/PWN%20-%20unlucky.md) - [PDF](TAMUctf%202023/PWN%20-%20unlucky/PWN%20-%20unlucky.pdf)
 
 
