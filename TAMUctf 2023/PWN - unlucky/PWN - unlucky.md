@@ -47,7 +47,7 @@ After analyzing the source code we understand that we need to calculate the addr
 
 ![](Screen-3.png)
 
-Now let's write code in C++ that takes a random seed as an argument and prints 7 random numbers into the terminal.
+Now let's write code in [C++](rand.cpp) that takes a random seed as an argument and prints 7 random numbers into the terminal.
 
 ```C++
 #include <stdio.h>
