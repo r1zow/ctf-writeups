@@ -19,9 +19,6 @@ PWN | [Number Store](HackPack%20CTF%202023/PWN%20-%20Number%20Store/PWN%20-%20Nu
 Category | Name
 --- | ---
 REV | [flappy bird](CyberHavoc%20CTF%202023/REV%20-%20flappy%20bird/REV%20-%20flappy%20bird%20-%20Easy.md) - [PDF](CyberHavoc%20CTF%202023/REV%20-%20flappy%20bird/REV%20-%20flappy%20bird%20-%20Easy.pdf)
-REV | Stop The DOS
-Forensics | Dump Digging
-Forensics | Decrypting the Memories
 
 4. ångstromCTF 2023
 
@@ -40,6 +37,6 @@ PWN | [unlucky](TAMUctf%202023/PWN%20-%20unlucky/PWN%20-%20unlucky.md) - [PDF](T
 
 Category | Name
 --- | ---
-PWN | [Notes](TFC%20CTF%202023/PWN%20-%20Notes/PWN%20-%20Notes) - [PDF](TFC%20CTF%202023/PWN%20-%20Notes/PWN%20-%20Notes.pdf)
-PWN | [Rusty](TFC%20CTF%202023/PWN%20-%20Rusty/PWN%20-%20Rusty) - [PDF](TFC%20CTF%202023/PWN%20-%20Rusty/PWN%20-%20Rusty.pdf)
-Forensics | [Some traffic](TFC%20CTF%202023/Forensics%20-%20Some%20traffic/Forensics%20-%20Some%20traffic) - [PDF](TFC%20CTF%202023/Forensics%20-%20Some%20traffic/Forensics%20-%20Some%20traffic.pdf)
+PWN | [Notes](TFC%20CTF%202023/PWN%20-%20Notes/PWN%20-%20Notes.md) - [PDF](TFC%20CTF%202023/PWN%20-%20Notes/PWN%20-%20Notes.pdf)
+PWN | [Rusty](TFC%20CTF%202023/PWN%20-%20Rusty/PWN%20-%20Rusty.md) - [PDF](TFC%20CTF%202023/PWN%20-%20Rusty/PWN%20-%20Rusty.pdf)
+Forensics | [Some traffic](TFC%20CTF%202023/Forensics%20-%20Some%20traffic/Forensics%20-%20Some%20traffic.md) - [PDF](TFC%20CTF%202023/Forensics%20-%20Some%20traffic/Forensics%20-%20Some%20traffic.pdf)
