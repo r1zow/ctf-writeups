@@ -40,3 +40,10 @@ Category | Name
 PWN | [Notes](TFC%20CTF%202023/PWN%20-%20Notes/PWN%20-%20Notes.md) - [PDF](TFC%20CTF%202023/PWN%20-%20Notes/PWN%20-%20Notes.pdf)
 PWN | [Rusty](TFC%20CTF%202023/PWN%20-%20Rusty/PWN%20-%20Rusty.md) - [PDF](TFC%20CTF%202023/PWN%20-%20Rusty/PWN%20-%20Rusty.pdf)
 Forensics | [Some traffic](TFC%20CTF%202023/Forensics%20-%20Some%20traffic/Forensics%20-%20Some%20traffic.md) - [PDF](TFC%20CTF%202023/Forensics%20-%20Some%20traffic/Forensics%20-%20Some%20traffic.pdf)
+
+7. CTF ZONE 2023
+
+Category | Name
+--- | ---
+WEB | [Under Construction](CTF%20ZONE%202023/WEB%20-%20Under%20Construction.md) - [PDF](CTF%20ZONE%202023/WEB%20-%20Under%20Construction.pdf)
+Forensics | [Ransookit](CTF%20ZONE%202023/Forensics%20-%20Ransookit.md) - [PDF](CTF%20ZONE%202023/Forensics%20-%20Ransookit.pdf)
